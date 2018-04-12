@@ -1,0 +1,15 @@
+Microsoft (R) Macro Assembler  Version 4.00
+Copyright (C) Microsoft Corp 1981, 1983, 1984, 1985.  All rights reserved.
+
+
+  49894 Bytes symbol space free
+
+      0 Warning Errors
+      0 Severe  Errors
+
+Microsoft (R) 8086 Object Linker  Version 3.05
+Copyright (C) Microsoft Corp 1983, 1984, 1985.  All rights reserved.
+
+Fixup overflow near 0B7B in segment @CODE in BUILD.OBJ(BUILD) offset 15AEH
+Fixup overflow near 0BB0 in segment @CODE in BUILD.OBJ(BUILD) offset 16ABH
+Fixup overflow near 0C54 in segment @CODE in BUILD.OBJ(BUILD) offset 17BCH

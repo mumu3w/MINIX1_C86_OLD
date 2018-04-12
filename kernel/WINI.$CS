@@ -1,0 +1,28 @@
+188 1382
+145 4 proc
+145 8 proc_ptr
+145 8 bill_ptr
+145 8 rdy_head
+145 8 rdy_tail
+145 8 busy_map
+145 8 task_mes
+146 8 winchest
+11 8 init_par
+11 8 w_do_rdw
+11 7 w_reset
+11 8 w_dma_se
+11 8 w_transf
+11 7 com_out
+11 8 win_resu
+11 8 read_ecc
+11 7 hd_wait
+11 7 win_out
+11 8 win_init
+11 8 check_in
+145 8 vec_tabl
+11 8 copy_par
+11 8 copy_prt
+146 4 sort
+146 4 swap
+146 7 memcpy_
+190

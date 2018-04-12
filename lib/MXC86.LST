@@ -1,0 +1,467 @@
+$DADD.............ZFLOATPP          $DCEQ.............ZFLOATPP
+$DCGE.............ZFLOATPP          $DCGR.............ZFLOATPP
+$DCLE.............ZFLOATPP          $DCLS.............ZFLOATPP
+$DCNE.............ZFLOATPP          $DCVTI............ZFLOATPP
+$DCVTL............ZFLOATPP          $DCVTUI...........ZFLOATPP
+$DCVTUL...........ZFLOATPP          $DDIV.............ZFLOATPP
+$DMUL.............ZFLOATPP          $DNEG.............ZFLOATPP
+$DRSUB............ZFLOATPP          $DSTORE...........ZFLOATPP
+$DSUB.............ZFLOATPP          $ENTRY............ZENTRY
+$FLOAD............ZFLOATPP          $FSTORE...........ZFLOATPP
+$ICVTD............ZFLOATPP          $ISWITCH..........ZISWITCH
+$JSWITCH..........ZJSWITCH          $LCVTD............ZFLOATPP
+$LLSHIFT..........ZLLSHIFT          $LMUL.............ZLMUL
+$LRSSHIFT.........ZLRSSHFT          $LRUSHIFT.........ZLRUSHFT
+$LSDIV............ZLDIVMOD          $LSMOD............ZLDIVMOD
+$LUDIV............ZLDIVMOD          $LUMOD............ZLDIVMOD
+@ABS..............ABS               ABORT.............ABORT
+ACCESS............ACCESS            ALARM.............ALARM
+ATOI..............ATOI              ATOL..............ATOL
+BCOPY.............BCOPY             BEGSIG............CATCHSIG
+BRK...............BRK               BRK2..............BRK2
+BUF...............PRINTS            BUFP..............PRINTS
+CALLM1............CALL              CALLM3............CALL
+CALLX.............CALL              CHDIR.............CHDIR
+CHMOD.............CHMOD             CHOWN.............CHOWN
+CHROOT............CHROOT            CLOSE.............CLOSE
+CREAT.............CREAT             CRYPT.............CRYPT
+DUP...............DUP               DUP2..............DUP2
+ENDGRENT..........GETGRENT          ENDPWENT..........GETPWENT
+ERRNO.............CALL              ERROR_ME..........PERROR
+EXECL.............EXEC              EXECLE............EXEC
+EXECN.............EXEC              EXECV.............EXEC
+EXECVE............EXEC              EXIT..............EXIT
+FCLOSE............FCLOSE            FFLUSH............FFLUSH
+FGETS.............FGETS             FOPEN.............FOPEN
+FORK..............FORK              FPRINTF...........FPRINTF
+FPUTS.............FPUTS             FREAD.............FREAD
+FREE..............MALLOC            FREOPEN...........FREOPEN
+FSCANF............SCANF             FSEEK.............FSEEK
+FSTAT.............FSTAT             FTELL.............FTELL
+FWRITE............FWRITE            GETC..............GETC
+GETEGID...........GETEGID           GETENV............GETENV
+GETEUID...........GETEUID           GETGID............GETGID
+GETGRENT..........GETGRENT          GETGRGID..........GETGRENT
+GETGRNAM..........GETGRENT          GETPASS...........GETPASS
+GETPID............GETPID            GETPWENT..........GETPWENT
+GETPWNAM..........GETPWENT          GETPWUID..........GETPWENT
+GETS..............GETS              GETUID............GETUID
+GET_BASE..........GETUTIL           GET_SIZE..........GETUTIL
+GET_TOT_..........GETUTIL           INDEX.............INDEX
+IOCTL.............IOCTL             ISATTY............ISATTY
+ITOA..............ITOA              KILL..............KILL
+LEN...............CALL              LINK..............LINK
+LONGJMP...........SETJMP            LSEEK.............LSEEK
+M.................MESSAGE           MALLOC............MALLOC
+MKNOD.............MKNOD             MKTEMP............MKTEMP
+MOUNT.............MOUNT             NULLPTR...........EXEC
+OPEN..............OPEN              PAUSE.............PAUSE
+PERROR............PERROR            PIPE..............PIPE
+PRINTF............FPRINTF           PRINTK............PRINTK
+PRINTS............PRINTS            PUTC..............PUTC
+RAND..............RAND              READ..............READ
+REALLOC...........MALLOC            RECEIVE...........SENDREC
+REG...............REGEXP            REGATOM...........REGEXP
+REGBRANC..........REGEXP            REGC..............REGEXP
+REGCOMP...........REGEXP            REGEXEC...........REGEXP
+REGINSER..........REGEXP            REGMATCH..........REGEXP
+REGNEXT...........REGEXP            REGNODE...........REGEXP
+REGOPTAI..........REGEXP            REGPIECE..........REGEXP
+REGREPEA..........REGEXP            REGSUB............REGSUB
+REGTAIL...........REGEXP            REGTRY............REGEXP
+RINDEX............RINDEX            SBRK..............BRK
+SCANF.............SCANF             SEND..............SENDREC
+SENDREC...........SENDREC           SEND_REC..........SENDREC
+SETBUF............SETBUF            SETGID............SETGID
+SETGRENT..........GETGRENT          SETJMP............SETJMP
+SETPWENT..........GETPWENT          SETUID............SETUID
+SIGNAL............SIGNAL            SLEEP.............SLEEP
+SPRINTF...........SPRINTF           SSCANF............SCANF
+STAT..............STAT              STD_ERR...........STDERR
+STIME.............STIME             STRCAT............STRCAT
+STRCMP............STRCMP            STRCPY............STRCPY
+STRCSPN...........REGEXP            STRLEN............STRLEN
+STRNCAT...........STRNCAT           STRNCMP...........STRNCMP
+STRNCPY...........STRNCPY           SYNC..............SYNC
+SYS_ABOR..........SYSLIB            SYS_COPY..........SYSLIB
+SYS_EXEC..........SYSLIB            SYS_FORK..........SYSLIB
+SYS_GETS..........SYSLIB            SYS_NEWM..........SYSLIB
+SYS_SIG...........SYSLIB            SYS_TIME..........SYSLIB
+SYS_XIT...........SYSLIB            TELL_FS...........SYSLIB
+TIME..............TIME              TIMES.............TIMES
+UMASK.............UMASK             UMOUNT............UMOUNT
+UNGETC............UNGETC            UNLINK............UNLINK
+UTIME.............UTIME             VECTAB............SIGNAL
+WAIT..............WAIT              WRITE.............WRITE
+_CLEANUP..........CLEANUP           _CTYPE_...........CTYPE
+_DOPRINT..........DOPRINTF          _DOSCANF..........SCANF
+_IO_TABL..........PRINTDAT          _STDERR...........PRINTDAT
+_STDIN............PRINTDAT          _STDOUT...........PRINTDAT
+__STB.............STB               __STDIN...........PRINTDAT
+__STDOUT..........PRINTDAT          
+
+ABORT             Offset: 00000010H  Code and data size: eH
+  ABORT           
+
+ABS               Offset: 00000130H  Code and data size: 18H
+  @ABS            
+
+ACCESS            Offset: 00000240H  Code and data size: 17H
+  ACCESS          
+
+ALARM             Offset: 00000380H  Code and data size: 1aH
+  ALARM           
+
+ATOI              Offset: 000004c0H  Code and data size: 9aH
+  ATOI            
+
+ATOL              Offset: 00000670H  Code and data size: a5H
+  ATOL            
+
+BCOPY             Offset: 00000840H  Code and data size: 24H
+  BCOPY           
+
+BRK               Offset: 00000960H  Code and data size: 75H
+  BRK               SBRK            
+
+BRK2              Offset: 00000b50H  Code and data size: 25H
+  BRK2            
+
+BRKSIZE           Offset: 00000cb0H  Code and data size: 0H
+
+CALL              Offset: 00000cd0H  Code and data size: 108H
+  CALLM1            CALLM3            CALLX             ERRNO
+  LEN             
+
+CATCHSIG          Offset: 00000ff0H  Code and data size: 31H
+  BEGSIG          
+
+CHDIR             Offset: 00001140H  Code and data size: 16H
+  CHDIR           
+
+CHMOD             Offset: 00001280H  Code and data size: 17H
+  CHMOD           
+
+CHOWN             Offset: 000013c0H  Code and data size: 28H
+  CHOWN           
+
+CHROOT            Offset: 00001520H  Code and data size: 16H
+  CHROOT          
+
+CLEANUP           Offset: 00001660H  Code and data size: 3eH
+  _CLEANUP        
+
+CLOSE             Offset: 000017d0H  Code and data size: 1aH
+  CLOSE           
+
+CREAT             Offset: 00001910H  Code and data size: 17H
+  CREAT           
+
+CRYPT             Offset: 00001a50H  Code and data size: 28eH
+  CRYPT           
+
+CSV               Offset: 00001e30H  Code and data size: 0H
+
+CTYPE             Offset: 00001e40H  Code and data size: 81H
+  _CTYPE_         
+
+DOPRINTF          Offset: 00001fc0H  Code and data size: 5ddH
+  _DOPRINT        
+
+DUP               Offset: 000027e0H  Code and data size: 1aH
+  DUP             
+
+DUP2              Offset: 00002920H  Code and data size: 21H
+  DUP2            
+
+EXEC              Offset: 00002a70H  Code and data size: 266H
+  EXECL             EXECLE            EXECN             EXECV
+  EXECVE            NULLPTR         
+
+EXIT              Offset: 00002f10H  Code and data size: 1aH
+  EXIT            
+
+FCLOSE            Offset: 00003050H  Code and data size: 8aH
+  FCLOSE          
+
+FFLUSH            Offset: 00003230H  Code and data size: 87H
+  FFLUSH          
+
+FGETS             Offset: 000033e0H  Code and data size: 5eH
+  FGETS           
+
+FOPEN             Offset: 00003560H  Code and data size: 153H
+  FOPEN           
+
+FORK              Offset: 00003820H  Code and data size: 18H
+  FORK            
+
+FPRINTF           Offset: 00003960H  Code and data size: 5cH
+  FPRINTF           PRINTF          
+
+FPUTS             Offset: 00003b30H  Code and data size: 26H
+  FPUTS           
+
+FREAD             Offset: 00003c80H  Code and data size: 5fH
+  FREAD           
+
+FREOPEN           Offset: 00003e00H  Code and data size: 23H
+  FREOPEN         
+
+FSEEK             Offset: 00003f60H  Code and data size: 186H
+  FSEEK           
+
+FSTAT             Offset: 00004240H  Code and data size: 25H
+  FSTAT           
+
+FTELL             Offset: 00004390H  Code and data size: b3H
+  FTELL           
+
+FWRITE            Offset: 00004560H  Code and data size: 5bH
+  FWRITE          
+
+GETC              Offset: 000046e0H  Code and data size: ecH
+  GETC            
+
+GETEGID           Offset: 00004900H  Code and data size: 35H
+  GETEGID         
+
+GETENV            Offset: 00004a60H  Code and data size: 60H
+  GETENV          
+
+GETEUID           Offset: 00004be0H  Code and data size: 33H
+  GETEUID         
+
+GETGID            Offset: 00004d40H  Code and data size: 22H
+  GETGID          
+
+GETGRENT          Offset: 00004e90H  Code and data size: 6efH
+  ENDGRENT          GETGRENT          GETGRGID          GETGRNAM
+  SETGRENT        
+
+GETPASS           Offset: 000053c0H  Code and data size: beH
+  GETPASS         
+
+GETPID            Offset: 000055f0H  Code and data size: 18H
+  GETPID          
+
+GETPWENT          Offset: 00005730H  Code and data size: 727H
+  ENDPWENT          GETPWENT          GETPWNAM          GETPWUID
+  SETPWENT        
+
+GETS              Offset: 00005cd0H  Code and data size: 56H
+  GETS            
+
+GETUID            Offset: 00005e50H  Code and data size: 21H
+  GETUID          
+
+GETUTIL           Offset: 00005fa0H  Code and data size: 2dH
+  GET_BASE          GET_SIZE          GET_TOT_        
+
+INDEX             Offset: 00006100H  Code and data size: 2dH
+  INDEX           
+
+IOCTL             Offset: 00006230H  Code and data size: 30bH
+  IOCTL           
+
+ISATTY            Offset: 00006770H  Code and data size: 2fH
+  ISATTY          
+
+ITOA              Offset: 000068b0H  Code and data size: c9H
+  ITOA            
+
+KILL              Offset: 00006ab0H  Code and data size: 1cH
+  KILL            
+
+LINK              Offset: 00006bf0H  Code and data size: 2fH
+  LINK            
+
+LSEEK             Offset: 00006d60H  Code and data size: 4dH
+  LSEEK           
+
+MALLOC            Offset: 00006ef0H  Code and data size: 228H
+  FREE              MALLOC            REALLOC         
+
+MESSAGE           Offset: 000072e0H  Code and data size: 18H
+  M               
+
+MKNOD             Offset: 000073d0H  Code and data size: 28H
+  MKNOD           
+
+MKTEMP            Offset: 00007530H  Code and data size: 5aH
+  MKTEMP          
+
+MOUNT             Offset: 000076a0H  Code and data size: 31H
+  MOUNT           
+
+OPEN              Offset: 00007810H  Code and data size: 17H
+  OPEN            
+
+PAUSE             Offset: 00007950H  Code and data size: 18H
+  PAUSE           
+
+PERROR            Offset: 00007a90H  Code and data size: 358H
+  ERROR_ME          PERROR          
+
+PIPE              Offset: 00008050H  Code and data size: 4aH
+  PIPE            
+
+PRINTDAT          Offset: 000081d0H  Code and data size: 846H
+  _IO_TABL          _STDERR           _STDIN            _STDOUT
+  __STDIN           __STDOUT        
+
+PRINTK            Offset: 000083b0H  Code and data size: 44aH
+  PRINTK          
+
+PRINTS            Offset: 000089e0H  Code and data size: 1ecH
+  BUF               BUFP              PRINTS          
+
+PUTC              Offset: 00008d30H  Code and data size: 102H
+  PUTC            
+
+RAND              Offset: 00008f60H  Code and data size: 41H
+  RAND            
+
+READ              Offset: 000090e0H  Code and data size: 27H
+  READ            
+
+REGEXP            Offset: 00009230H  Code and data size: 1367H
+  REG               REGATOM           REGBRANC          REGC
+  REGCOMP           REGEXEC           REGINSER          REGMATCH
+  REGNEXT           REGNODE           REGOPTAI          REGPIECE
+  REGREPEA          REGTAIL           REGTRY            STRCSPN
+
+REGSUB            Offset: 0000b320H  Code and data size: 1dfH
+  REGSUB          
+
+RINDEX            Offset: 0000b660H  Code and data size: 35H
+  RINDEX          
+
+SCANF             Offset: 0000b790H  Code and data size: 697H
+  FSCANF            SCANF             SSCANF            _DOSCANF
+
+SENDREC           Offset: 0000c230H  Code and data size: 1fH
+  RECEIVE           SEND              SENDREC           SEND_REC
+
+SETBUF            Offset: 0000c370H  Code and data size: 6cH
+  SETBUF          
+
+SETGID            Offset: 0000c500H  Code and data size: 1aH
+  SETGID          
+
+SETJMP            Offset: 0000c640H  Code and data size: 35H
+  LONGJMP           SETJMP          
+
+SETUID            Offset: 0000c780H  Code and data size: 1aH
+  SETUID          
+
+SIGNAL            Offset: 0000c8c0H  Code and data size: 8dH
+  SIGNAL            VECTAB          
+
+SLEEP             Offset: 0000ca90H  Code and data size: 28H
+  SLEEP           
+
+SPRINTF           Offset: 0000cc10H  Code and data size: 43H
+  SPRINTF         
+
+STAT              Offset: 0000cd90H  Code and data size: 2fH
+  STAT            
+
+STB               Offset: 0000cef0H  Code and data size: 29H
+  __STB           
+
+STDERR            Offset: 0000d010H  Code and data size: 32H
+  STD_ERR         
+
+STIME             Offset: 0000d160H  Code and data size: 21H
+  STIME           
+
+STRCAT            Offset: 0000d2b0H  Code and data size: 46H
+  STRCAT          
+
+STRCMP            Offset: 0000d3f0H  Code and data size: 4eH
+  STRCMP          
+
+STRCPY            Offset: 0000d540H  Code and data size: 37H
+  STRCPY          
+
+STRLEN            Offset: 0000d670H  Code and data size: 27H
+  STRLEN          
+
+STRNCAT           Offset: 0000d790H  Code and data size: 5eH
+  STRNCAT         
+
+STRNCMP           Offset: 0000d8f0H  Code and data size: 58H
+  STRNCMP         
+
+STRNCPY           Offset: 0000da40H  Code and data size: 41H
+  STRNCPY         
+
+SYNC              Offset: 0000db80H  Code and data size: 18H
+  SYNC            
+
+SYSLIB            Offset: 0000dcc0H  Code and data size: 1a7H
+  SYS_ABOR          SYS_COPY          SYS_EXEC          SYS_FORK
+  SYS_GETS          SYS_NEWM          SYS_SIG           SYS_TIME
+  SYS_XIT           TELL_FS         
+
+TIME              Offset: 0000e170H  Code and data size: 6cH
+  TIME            
+
+TIMES             Offset: 0000e320H  Code and data size: 67H
+  TIMES           
+
+UMASK             Offset: 0000e4e0H  Code and data size: 1aH
+  UMASK           
+
+UMOUNT            Offset: 0000e620H  Code and data size: 16H
+  UMOUNT          
+
+UNGETC            Offset: 0000e760H  Code and data size: 6aH
+  UNGETC          
+
+UNLINK            Offset: 0000e8d0H  Code and data size: 16H
+  UNLINK          
+
+UTIME             Offset: 0000ea10H  Code and data size: 48H
+  UTIME           
+
+WAIT              Offset: 0000ebb0H  Code and data size: 2dH
+  WAIT            
+
+WRITE             Offset: 0000ed10H  Code and data size: 1eH
+  WRITE           
+
+END               Offset: 0000ee50H  Code and data size: 0H
+
+ZENTRY            Offset: 0000ee60H  Code and data size: 29H
+  $ENTRY          
+
+ZFLOATPP          Offset: 0000efa0H  Code and data size: 55cH
+  $DADD             $DCEQ             $DCGE             $DCGR
+  $DCLE             $DCLS             $DCNE             $DCVTI
+  $DCVTL            $DCVTUI           $DCVTUL           $DDIV
+  $DMUL             $DNEG             $DRSUB            $DSTORE
+  $DSUB             $FLOAD            $FSTORE           $ICVTD
+  $LCVTD          
+
+ZISWITCH          Offset: 0000f890H  Code and data size: 21H
+  $ISWITCH        
+
+ZJSWITCH          Offset: 0000f9a0H  Code and data size: 18H
+  $JSWITCH        
+
+ZLDIVMOD          Offset: 0000faa0H  Code and data size: a1H
+  $LSDIV            $LSMOD            $LUDIV            $LUMOD
+
+ZLLSHIFT          Offset: 0000fc60H  Code and data size: 2cH
+  $LLSHIFT        
+
+ZLMUL             Offset: 0000fd80H  Code and data size: 29H
+  $LMUL           
+
+ZLRSSHFT          Offset: 0000fe90H  Code and data size: 2cH
+  $LRSSHIFT       
+
+ZLRUSHFT          Offset: 0000ffb0H  Code and data size: 2cH
+  $LRUSHIFT       

@@ -1,0 +1,9 @@
+masm zentry,,nul,nul >zentry.lst
+masm zfloatpp,,nul,nul >zfloatpp.lst
+masm ziswitch,,nul,nul >ziswitch.lst
+masm zjswitch,,nul,nul >zjswitch.lst
+masm zldivmod,,nul,nul >zldivmod.lst
+masm zllshift,,nul,nul >zllshift.lst
+masm zlmul,,nul,nul >zlmul.lst
+masm zlrsshft,,nul,nul >zlrsshft.lst
+masm zlrushft,,nul,nul >zlrushft.lst
