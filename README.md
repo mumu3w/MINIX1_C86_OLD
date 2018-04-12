@@ -1,1 +1,1 @@
-# minix1.1 for C86 + MASM 4.0
+# minix1.1 (C86 + MASM 4.0)
