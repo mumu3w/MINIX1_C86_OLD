@@ -697,10 +697,10 @@ register struct wini *first, *second;
 {
   register struct wini tmp;
 
-  /*memcpy_(&tmp,first,sizeof(struct wini));
+  memcpy_(&tmp,first,sizeof(struct wini));
   memcpy_(first,second,sizeof(struct wini));
-  memcpy_(second,&tmp,sizeof(struct wini));*/
-  tmp = *first;
+  memcpy_(second,&tmp,sizeof(struct wini));
+  /*tmp = *first;
   *first = *second;
-  *second = tmp;
+  *second = tmp;*/
 }
