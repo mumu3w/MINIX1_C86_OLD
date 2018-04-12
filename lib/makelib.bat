@@ -99,7 +99,7 @@ call make.bat UNGETC
 call make.bat UNLINK 
 call make.bat UTIME 
 call make.bat WAIT 
-call make.bat WRITE.C
+call make.bat WRITE
 masm brksize,,nul,nul >brksize.lst
 masm catchsig,,nul,nul >catchsig.lst
 masm crtso,,nul,nul >crtso.lst
